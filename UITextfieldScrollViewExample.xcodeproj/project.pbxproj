@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		259C9B1A170B9FEC00619D6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259C9B19170B9FEC00619D6B /* UIKit.framework */; };
+		259C9B1C170B9FEC00619D6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259C9B1B170B9FEC00619D6B /* Foundation.framework */; };
+		259C9B1E170B9FEC00619D6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259C9B1D170B9FEC00619D6B /* CoreGraphics.framework */; };
+		259C9B26170B9FEC00619D6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 259C9B25170B9FEC00619D6B /* main.m */; };
+		259C9B2A170B9FEC00619D6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 259C9B29170B9FEC00619D6B /* AppDelegate.m */; };
+		259C9B33170B9FEC00619D6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259C9B32170B9FEC00619D6B /* ViewController.m */; };
+		259C9B43170BA0AE00619D6B /* UITextfieldScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259C9B42170BA0AE00619D6B /* UITextfieldScrollViewController.m */; };
+		259C9B45170BA0DD00619D6B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259C9B44170BA0DD00619D6B /* ViewController.xib */; };
+		259C9B47170BA10F00619D6B /* ViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259C9B46170BA10F00619D6B /* ViewController~ipad.xib */; };
+		259C9B4A170BA2C100619D6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 259C9B49170BA2C100619D6B /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		259C9B16170B9FEC00619D6B /* UITextfieldScrollViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextfieldScrollViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		259C9B19170B9FEC00619D6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		259C9B1B170B9FEC00619D6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		259C9B1D170B9FEC00619D6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		259C9B21170B9FEC00619D6B /* UITextfieldScrollViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITextfieldScrollViewExample-Info.plist"; sourceTree = "<group>"; };
+		259C9B25170B9FEC00619D6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		259C9B27170B9FEC00619D6B /* UITextfieldScrollViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextfieldScrollViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		259C9B28170B9FEC00619D6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		259C9B29170B9FEC00619D6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		259C9B31170B9FEC00619D6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		259C9B32170B9FEC00619D6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		259C9B41170BA0AE00619D6B /* UITextfieldScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextfieldScrollViewController.h; sourceTree = "<group>"; };
+		259C9B42170BA0AE00619D6B /* UITextfieldScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextfieldScrollViewController.m; sourceTree = "<group>"; };
+		259C9B44170BA0DD00619D6B /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		259C9B46170BA10F00619D6B /* ViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ViewController~ipad.xib"; sourceTree = "<group>"; };
+		259C9B49170BA2C100619D6B /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		259C9B13170B9FEC00619D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259C9B1A170B9FEC00619D6B /* UIKit.framework in Frameworks */,
+				259C9B1C170B9FEC00619D6B /* Foundation.framework in Frameworks */,
+				259C9B1E170B9FEC00619D6B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		259C9B0D170B9FEC00619D6B = {
+			isa = PBXGroup;
+			children = (
+				259C9B40170BA0AE00619D6B /* Classes */,
+				259C9B1F170B9FEC00619D6B /* UITextfieldScrollViewExample */,
+				259C9B18170B9FEC00619D6B /* Frameworks */,
+				259C9B17170B9FEC00619D6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		259C9B17170B9FEC00619D6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				259C9B16170B9FEC00619D6B /* UITextfieldScrollViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		259C9B18170B9FEC00619D6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				259C9B19170B9FEC00619D6B /* UIKit.framework */,
+				259C9B1B170B9FEC00619D6B /* Foundation.framework */,
+				259C9B1D170B9FEC00619D6B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		259C9B1F170B9FEC00619D6B /* UITextfieldScrollViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				259C9B28170B9FEC00619D6B /* AppDelegate.h */,
+				259C9B29170B9FEC00619D6B /* AppDelegate.m */,
+				259C9B31170B9FEC00619D6B /* ViewController.h */,
+				259C9B32170B9FEC00619D6B /* ViewController.m */,
+				259C9B20170B9FEC00619D6B /* Supporting Files */,
+				259C9B44170BA0DD00619D6B /* ViewController.xib */,
+				259C9B46170BA10F00619D6B /* ViewController~ipad.xib */,
+			);
+			path = UITextfieldScrollViewExample;
+			sourceTree = "<group>";
+		};
+		259C9B20170B9FEC00619D6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				259C9B21170B9FEC00619D6B /* UITextfieldScrollViewExample-Info.plist */,
+				259C9B49170BA2C100619D6B /* InfoPlist.strings */,
+				259C9B25170B9FEC00619D6B /* main.m */,
+				259C9B27170B9FEC00619D6B /* UITextfieldScrollViewExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		259C9B40170BA0AE00619D6B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				259C9B41170BA0AE00619D6B /* UITextfieldScrollViewController.h */,
+				259C9B42170BA0AE00619D6B /* UITextfieldScrollViewController.m */,
+			);
+			name = Classes;
+			path = UITextfieldScrollViewExample/Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		259C9B15170B9FEC00619D6B /* UITextfieldScrollViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259C9B3C170B9FEC00619D6B /* Build configuration list for PBXNativeTarget "UITextfieldScrollViewExample" */;
+			buildPhases = (
+				259C9B12170B9FEC00619D6B /* Sources */,
+				259C9B13170B9FEC00619D6B /* Frameworks */,
+				259C9B14170B9FEC00619D6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITextfieldScrollViewExample;
+			productName = UITextfieldScrollViewExample;
+			productReference = 259C9B16170B9FEC00619D6B /* UITextfieldScrollViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		259C9B0E170B9FEC00619D6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = RealTimeSolution;
+			};
+			buildConfigurationList = 259C9B11170B9FEC00619D6B /* Build configuration list for PBXProject "UITextfieldScrollViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 259C9B0D170B9FEC00619D6B;
+			productRefGroup = 259C9B17170B9FEC00619D6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				259C9B15170B9FEC00619D6B /* UITextfieldScrollViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		259C9B14170B9FEC00619D6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259C9B45170BA0DD00619D6B /* ViewController.xib in Resources */,
+				259C9B47170BA10F00619D6B /* ViewController~ipad.xib in Resources */,
+				259C9B4A170BA2C100619D6B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		259C9B12170B9FEC00619D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259C9B26170B9FEC00619D6B /* main.m in Sources */,
+				259C9B2A170B9FEC00619D6B /* AppDelegate.m in Sources */,
+				259C9B33170B9FEC00619D6B /* ViewController.m in Sources */,
+				259C9B43170BA0AE00619D6B /* UITextfieldScrollViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		259C9B3A170B9FEC00619D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		259C9B3B170B9FEC00619D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		259C9B3D170B9FEC00619D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextfieldScrollViewExample/UITextfieldScrollViewExample-Prefix.pch";
+				INFOPLIST_FILE = "UITextfieldScrollViewExample/UITextfieldScrollViewExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		259C9B3E170B9FEC00619D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextfieldScrollViewExample/UITextfieldScrollViewExample-Prefix.pch";
+				INFOPLIST_FILE = "UITextfieldScrollViewExample/UITextfieldScrollViewExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		259C9B11170B9FEC00619D6B /* Build configuration list for PBXProject "UITextfieldScrollViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259C9B3A170B9FEC00619D6B /* Debug */,
+				259C9B3B170B9FEC00619D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259C9B3C170B9FEC00619D6B /* Build configuration list for PBXNativeTarget "UITextfieldScrollViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259C9B3D170B9FEC00619D6B /* Debug */,
+				259C9B3E170B9FEC00619D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 259C9B0E170B9FEC00619D6B /* Project object */;
+}
