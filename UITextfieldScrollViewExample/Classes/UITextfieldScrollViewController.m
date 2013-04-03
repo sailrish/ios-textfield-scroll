@@ -1,5 +1,8 @@
 /*
- This file is part of UITextfieldScrollViewController
+ UITextfieldScrollViewController is a class that scroll texfields up the keyboard with animation, when keyboard is shown.
+ Copyright (C) 2013 Michele Caldarone
+ 
+ This file is part of UITextfieldScrollViewController.
  
  UITextfieldScrollViewController is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

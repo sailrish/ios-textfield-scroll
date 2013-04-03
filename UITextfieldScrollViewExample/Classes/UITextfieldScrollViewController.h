@@ -1,5 +1,8 @@
 /*
- This file is part of UITextfieldScrollViewController
+ UITextfieldScrollViewController is a class that scroll texfields up the keyboard with animation, when keyboard is shown.
+ Copyright (C) 2013 Michele Caldarone
+ 
+ This file is part of UITextfieldScrollViewController.
  
  UITextfieldScrollViewController is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -22,7 +25,10 @@
 @interface UITextfieldScrollViewController : UIViewController <UITextFieldDelegate>
 
 @property (nonatomic, retain) IBOutlet UIScrollView *scrollView;
+
+// change this property to desiderate distance that textfield must have from keyboard when shown. Default value is set to DEFAULT_DISTACE_FROM_KEYBOARD
 @property (nonatomic, assign) CGFloat distanceFromKeyboard;
+// change this property if you want the textfield do not returns in own original position when keyboard is hiding. Default value is set to TRUE
 @property (nonatomic, assign) BOOL scrollToPreviousPosition;
 
 @end
