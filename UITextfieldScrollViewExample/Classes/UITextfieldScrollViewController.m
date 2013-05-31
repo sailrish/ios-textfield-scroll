@@ -36,17 +36,21 @@
 
 @synthesize scrollView, distanceFromKeyboard, scrollToPreviousPosition;
 
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self)
-    {
-        // Custom initialization
-        self.distanceFromKeyboard = DEFAULT_DISTACE_FROM_KEYBOARD;
-        self->isKeyboardVisible = NO;
-        self.scrollToPreviousPosition = YES;
-    }
     return self;
+}
+
+-(void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    // Custom initialization
+    self.distanceFromKeyboard = DEFAULT_DISTACE_FROM_KEYBOARD;
+    self->isKeyboardVisible = NO;
+    self.scrollToPreviousPosition = YES;
 }
 
 -(void)viewWillAppear:(BOOL)animated
