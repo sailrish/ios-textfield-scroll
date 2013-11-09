@@ -22,7 +22,7 @@
 
 #define DEFAULT_DISTACE_FROM_KEYBOARD       20.0
 
-@interface UITextfieldScrollViewController : UIViewController <UITextFieldDelegate>
+@interface UITextfieldScrollViewController : UIViewController <UITextFieldDelegate, UITextViewDelegate>
 
 @property (nonatomic, retain) IBOutlet UIScrollView *scrollView;
 

@@ -30,7 +30,7 @@
     CGPoint activeTexfieldPosition;
     CGPoint lastScrollPoint;
     CGPoint originalScrollPoint;
-    UITextField *activeTextfield;
+    UIView* activeEditField;
     CGSize kbSize;
 }
 
@@ -73,7 +73,7 @@
 {
     self->isKeyboardVisible = YES;
     // getting the actvie textfield position relative to self.view
-    CGFloat yTexfieldPosition = [self->activeTextfield convertPoint:CGPointMake(0, 0) toView:self.view].y + self->activeTextfield.frame.size.height;
+    CGFloat yTexfieldPosition = [self->activeEditField convertPoint:CGPointMake(0, 0) toView:self.view].y + self->activeEditField.frame.size.height;
     // adjustements relative to statusBar visibility
     if(![UIApplication sharedApplication].statusBarHidden)
     {
@@ -132,7 +132,17 @@
 
 - (void)textFieldDidBeginEditing:(UITextField *)sender
 {
-    self->activeTextfield = sender;
+    [self textInputDidBeginEditing:sender];
+}
+
+- (void)textViewDidBeginEditing:(UITextView *)sender
+{
+    [self textInputDidBeginEditing:sender];
+}
+
+- (void)textInputDidBeginEditing:(UIView *)sender
+{
+    self->activeEditField = sender;
     if(self->isKeyboardVisible)
     {
         [self keyboardWillShow:nil];
