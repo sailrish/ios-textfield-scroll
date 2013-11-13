@@ -51,6 +51,13 @@
     self.distanceFromKeyboard = DEFAULT_DISTACE_FROM_KEYBOARD;
     self->isKeyboardVisible = NO;
     self.scrollToPreviousPosition = YES;
+    UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapGestureCaptured:)];
+    [[self scrollView] addGestureRecognizer:singleTap];
+}
+
+- (void)singleTapGestureCaptured:(UITapGestureRecognizer *)gesture
+{
+    [self->activeEditField resignFirstResponder];
 }
 
 -(void)viewWillAppear:(BOOL)animated
